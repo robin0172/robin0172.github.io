@@ -1,11 +1,11 @@
-const navetoggle=document.querySelector('.nav-toggle');
-const naveLinks=document.querySelectorAll('.nav__link')
-navetoggle.addEventListener("click",()=>{
-    document.body.classList.toggle('nav-open')
+const icon=document.querySelector(".icon")
+const navelink=document.querySelectorAll(".nav__link")
+icon.addEventListener('click',()=>{
+document.body.classList.toggle("nav-open")
 })
 
-naveLinks.forEach(link=>{
+navelink.forEach(link=>{
     link.addEventListener('click',()=>{
-        document.body.classList.remove('nav-open')
+        document.body.classList.remove("nav-open")
     })
 })
