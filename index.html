@@ -1,155 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Robin potfolio website</title>
-    <link rel="stylesheet" href="normalize.css">
+    <title>Document</title>
     <link rel="stylesheet" href="/fontawesome-free-5.13.0-web/css/all.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna&display=swap" rel="stylesheet">
 </head>
-
 <body id="home">
+    <!-- manue section -->
     <header>
         <div class="logo">
-            <img src="img/" alt="">
+            <img src="/img/responsive-web-design-navigation-bar-computer-icons-menu-hamburger-button-menu-png-clip-art.png" alt="" class="icon">
         </div>
-        <button class="nav-toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-        </button>
-
         <nav class="nav">
-            <ul class="nav-list">
-                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
-                <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
-                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
-            </ul>
+        <ul class="nav-list">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+            <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+        </ul>
         </nav>
     </header>
 
-    <!-- introduction -->
-    <section class="intro" id="home">
-        <h1 class="section__title section__title">
-            Hi, I am <strong>Robin</strong>
-        </h1>
-        <p class="section__subtitle section__subtitle-intro">front-end dev</p>
-        <img src="img/91628074_689143598294852_6931668042799644672_o.jpg" alt="picture of robin" class="intro__img">
-    </section>
+<!-- intro section -->
+<section class="intro">
+  <h1 class="section__title section__title--intro">
+      Hi,I am <strong>Robin</strong>
+  </h1>  
+  <p class="section__subtitle section__subtitle--intro">front-end developer</p>
+  <img src="img/91628074_689143598294852_6931668042799644672_o.jpg" alt="" class="intro__img">
+</section>
 
+<!-- my services -->
+<section class="my-services" id="services">
+    <h2 class="section__title section__title--services">What I do</h2>
+    <div class="services">
+        <!--/service  -->
+        <div class="service">
+            <h3>web-desin+development</h3>
+            <p>Web developers, sometimes called programmers, take the design created and build a fully functioning
+                website. To put it (very) simply, think of the design as a non-interactive “picture” of a website.
+                Developers take that design and break it up into it’s components. They then either use just HTML or
+                a more dynamic approach incorporating programming languages such as PHP to develop the various
+                website pages..</p>
+        </div>
+        <div class="service">
+            <h3>E-comarch</h3>
+            <p>Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling
+                of goods or services using the internet, and the transfer of money and data to execute these
+                transactions. Ecommerce is often used to refer to the sale of physical products online, but it can
+                also describe any kind of commercial transaction that is facilitated through the internet..</p>
+        </div>
 
-    <!-- my services -->
-    <section class="my-services" id="services">
-        <h2 class="section__title section__title--servies">What I do</h2>
-        <div class="services">
-            <div class="service">
-                <h3>Web-desin+web-development</h3>
-                <p>Web developers, sometimes called programmers, take the design created and build a fully functioning
-                    website. To put it (very) simply, think of the design as a non-interactive “picture” of a website.
-                    Developers take that design and break it up into it’s components. They then either use just HTML or
-                    a more dynamic approach incorporating programming languages such as PHP to develop the various
-                    website pages..</p>
-            </div>
-            <!--/service  -->
-
-            <div class="service">
-                <h3>E-comarch</h3>
-                <p>Ecommerce, also known as electronic commerce or internet commerce, refers to the buying and selling
-                    of goods or services using the internet, and the transfer of money and data to execute these
-                    transactions. Ecommerce is often used to refer to the sale of physical products online, but it can
-                    also describe any kind of commercial transaction that is facilitated through the internet..</p>
-            </div>
-            <!--/service  -->
-
-            <div class="service">
-                <h3>wordpress</h3>
+        <div class="service">
+            <h3>wordpress</h3>
                 <p>WordPress is open-source software, so nowadays it’s made by a huge community of contributors. But if
                     we were to trace WordPress’ origins back to its roots, its original creation was a collaboration
                     between Matt Mullenweg and Mike Little.
 
                     Since then, Matt Mullenweg has largely become the face of WordPress. And he’s also the founder of
                     Automattic, which is the company behind the for-profit WordPress.com service..</p>
-            </div>
-            <!--/service  -->
-
-
         </div>
-        <a href="#work" class="btn">My work</a>
-
-    </section>
-
+        <!--/service  -->
+    </div>
+    <a href="#work" class="btn">MY work</a>
+</section>
     <!-- About me -->
     <section class="about-me" id="about">
-        <h2 class="section__title section__title--about">Who I am</h2>
-
-        <p class="section__subtitle--about">Web Designer & developer </p>
-
-        <div class="about-me--body" id="about">
-            <p>I have worked on a multitude of web and print based projects for a range of clients providing Web Design
-                (Photoshop, Illustrator, InDesign) and Development ( HTML, CSS, LESS, JS, jQuery,
-                , Bootstrap, Responsive Layouts)
-            </p>
-            <p>eCommerce Solutions, Corporate Branding and Graphic Design.
-                During my Multimedia degree I studied Information Architecture, and therefore have a keen understanding
-                of wireframes, sitemaps and user experience design which I put to good use on every project I work on.
-            </p>
-
-        </div>
-
-        <img src="/img/100041389_724793701396508_9075040578168684544_n.jpg" alt="" class="about-me__img">
-
-
+        <h2 class="section__title section__title--about">who I am</h2>
+        <p class="section__subtitle  section__subtitle--about">Web Disgner & developer</p>
+   <div class="about-me-body" id="about">
+    <p>I have worked on a multitude of web and print based projects for a range of clients providing Web Design
+        (Photoshop, Illustrator, InDesign) and Development ( HTML, CSS, LESS, JS, jQuery,
+        , Bootstrap, Responsive Layouts)
+    </p>
+    <p>eCommerce Solutions, Corporate Branding and Graphic Design.
+        During my Multimedia degree I studied Information Architecture, and therefore have a keen understanding
+        of wireframes, sitemaps and user experience design which I put to good use on every project I work on.
+    </p>
+   </div>
+   <img src="/img/100041389_724793701396508_9075040578168684544_n.jpg" alt="" class="about-me-img">
     </section>
-
-    <!-- My Work -->
+ 
+    
+    <!-- my work -->
     <section class="my-work" id="work">
         <h2 class="section__title">My Work</h2>
-        <p class="section__subtitle-work">A selection of range of work</p>
-
-        <div class="portfolio">
-            <!-- portfolio item 01 -->
-            <a href="https://github.com/robin0172/web-projects/tree/master/project%201" class="portfolio__item">
-                <img src="/img/advanced-postman-for-better-apis-web-summit-2018-cisco-devnet-1-638.jpg" alt="" class="portfolio__img">
-            </a>
-
-            <!-- portfolio item 01 -->
-            <a href="https://github.com/robin0172/web-projects/tree/master/project2" class="portfolio__item">
-                <img src="/img/Weather-App-Mikko-Nuuttila-01.jpg" alt="" class="portfolio__img">
-            </a>
-
-            <!-- portfolio item 01 -->
-            <a href="https://github.com/robin0172/web-projects/tree/master/project3" class="portfolio__item">
-                <img src="/img/Post_Blog_Meditation_desktop_01_1024x1024.webp" alt="" class="portfolio__img">
-            </a>
-
-            <!-- portfolio item 01 -->
-            <a href="https://github.com/robin0172/web-projects/tree/master/project7/js-cart-setup-master/js-cart-setup-master" class="portfolio__item">
-                <img src="/img/png-transparent-shopping-cart-online-shopping-computer-icons-shopping-basket-retail-logo-supermarket.png" alt="" class="portfolio__img">
-            </a>
-
-
-            <!-- portfolio item 01 -->
-            <a href="https://github.com/robin0172/web-projects/tree/master/project5" class="portfolio__item">
-                <img src="/img/8f8e9f4fa3ac8a15a9cd39383fb42fce_download-free-png-rock-paper-scissors-vector-rock-paper-scissors-_820-691.jpeg" alt="" class="portfolio__img">
-            </a>
-        </div>
+        <p class="section__subtitle-work">A selection of range of my work</p>
     </section>
+    <div class="portfolio">
+        <!-- potfolio item 01 -->
+        <a href="https://github.com/robin0172/web-projects/tree/master/project%201" class="portfolio__item">
+            <img src="/img/advanced-postman-for-better-apis-web-summit-2018-cisco-devnet-1-638.jpg" alt="" class="portfolio__img">
+        </a>
 
+        <!-- potfolio item 02 -->
+        <a href="https://github.com/robin0172/web-projects/tree/master/project2" class="portfolio__item">
+            <img src="/img/Weather-App-Mikko-Nuuttila-01.jpg" alt="" class="portfolio__img">
+        </a>
+
+        <!-- portfolio item 03 -->
+        <a href="https://github.com/robin0172/web-projects/tree/master/project3" class="portfolio__item">
+            <img src="/img/Post_Blog_Meditation_desktop_01_1024x1024.webp" alt="" class="portfolio__img">
+        </a>
+
+        <!-- portfolio item 04 -->
+        <a href="https://github.com/robin0172/web-projects/tree/master/project7/js-cart-setup-master/js-cart-setup-master" class="portfolio__item">
+            <img src="/img/png-transparent-shopping-cart-online-shopping-computer-icons-shopping-basket-retail-logo-supermarket.png" alt="" class="portfolio__img">
+        </a>
+
+
+        <!-- portfolio item 05 -->
+        <a href="https://github.com/robin0172/web-projects/tree/master/project5" class="portfolio__item">
+            <img src="/img/8f8e9f4fa3ac8a15a9cd39383fb42fce_download-free-png-rock-paper-scissors-vector-rock-paper-scissors-_820-691.jpeg" alt="" class="portfolio__img">
+        </a>
+    </div>
+   
     <!-- fotter -->
     <footer class="footer">
         <!-- repleace with your own email address -->
         <a href="mailto:sarwar0172442@gmail.com">sarwar0172442@gmail.com</a>
         <ul class="socila-list">
+            <li class="socila-list__itme"><a href="https://www.facebook.com/robin.islam.54943600">
+                <i class="fab fa-facebook-square"></i></a></li>
             <li class="social-list__item"><a class="socila-list__link"
-                    href="https://www.facebook.com/robin.islam.54943600"><i class="fab fa-facebook-square"></i></a></li>
-            <li class="social-list__item"><a class="socila-list__link"
-                    href="https://github.com/robin0172/web-projects"><i class="fab fa-github"></i></a></li>
+                href="https://github.com/robin0172/web-projects"><i class="fab fa-github"></i></a></li>
 
         </ul>
     </footer>
 </body>
 <script src="index.js"></script>
-
 </html>
